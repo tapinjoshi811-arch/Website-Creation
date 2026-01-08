@@ -69,7 +69,7 @@ h2{
 }
 
 .field input:focus + label,
-.field input:valid + label{
+.field input:not(:placeholder-shown) + label{
     top: -14px;
     font-size:13px;
     color: #c084fc;
